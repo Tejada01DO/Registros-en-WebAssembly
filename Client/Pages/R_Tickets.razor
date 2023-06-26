@@ -93,18 +93,21 @@
     {
         using var respuesta = await httpclient.PostAsJsonAsync("api/Tickets", tickets);
 
-        if(!respuesta.IsSuccessStatusCode)
+        if(Validar())
         {
-            mensaje = respuesta.ReasonPhrase ?? "error";
-            return;
-        }
+            if(!respuesta.IsSuccessStatusCode)
+            {
+                mensaje = respuesta.ReasonPhrase ?? "error";
+                return;
+            }
 
-        var ticketDevuelto = await respuesta.Content.ReadFromJsonAsync<Tickets>();
+            var ticketDevuelto = await respuesta.Content.ReadFromJsonAsync<Tickets>();
         
-        if(ticketDevuelto is not null)
-        {
-            tickets = ticketDevuelto;
-            StateHasChanged();
+            if(ticketDevuelto is not null)
+            {
+                tickets = ticketDevuelto;
+                StateHasChanged();
+            } 
         }
     }
 
@@ -114,17 +117,41 @@
         mensaje = string.Empty;
     }
 
-    public async Task Eliminar()
+    public bool Validar()
     {
-        using var respuesta = await httpclient.DeleteAsync($"api/Tickets/{tickets.TicketId}");
-        if(!respuesta.IsSuccessStatusCode)
+        if(string.IsNullOrEmpty(tickets.SolicitadoPor))
         {
-            mensaje = respuesta.ReasonPhrase ?? "error";
-            return;
+            return false;
+        }
+        if(string.IsNullOrEmpty(tickets.Asunto))
+        {
+            return false;
+        }
+        if(string.IsNullOrEmpty(tickets.Descripcion))
+        {
+            return false;
         }
         else
         {
-            Nuevo();
+            return true;
+        }
+    }
+
+    public async Task Eliminar()
+    {
+        using var respuesta = await httpclient.DeleteAsync($"api/Tickets/{tickets.TicketId}");
+
+        if(Validar())
+        {
+            if(!respuesta.IsSuccessStatusCode)
+            {
+                mensaje = respuesta.ReasonPhrase ?? "error";
+                return;
+            }
+            else
+            {
+                Nuevo();
+            }   
         }
     }
 }

@@ -76,18 +76,21 @@
     {
         using var respuesta = await httpclient.PostAsJsonAsync("api/Sistemas", sistemas);
 
-        if(!respuesta.IsSuccessStatusCode)
+        if(Validar())
         {
-            mensaje = respuesta.ReasonPhrase ?? "error";
-            return;
-        }
+            if(!respuesta.IsSuccessStatusCode)
+            {
+                mensaje = respuesta.ReasonPhrase ?? "error";
+                return;
+            }
 
-        var sistemaDevuelto = await respuesta.Content.ReadFromJsonAsync<Sistemas>();
+            var sistemaDevuelto = await respuesta.Content.ReadFromJsonAsync<Sistemas>();
         
-        if(sistemaDevuelto is not null)
-        {
-            sistemas = sistemaDevuelto;
-            StateHasChanged();
+            if(sistemaDevuelto is not null)
+            {
+                sistemas = sistemaDevuelto;
+                StateHasChanged();
+            }
         }
     }
 
@@ -97,17 +100,33 @@
         mensaje = string.Empty;
     }
 
-    public async Task Eliminar()
+    public bool Validar()
     {
-        using var respuesta = await httpclient.DeleteAsync($"api/Prioridades/{sistemas.SistemaId}");
-        if(!respuesta.IsSuccessStatusCode)
+        if(string.IsNullOrEmpty(sistemas.Nombre))
         {
-            mensaje = respuesta.ReasonPhrase ?? "error";
-            return;
+            return false;
         }
         else
         {
-            Nuevo();
+            return true;
+        }
+    }
+
+    public async Task Eliminar()
+    {
+        using var respuesta = await httpclient.DeleteAsync($"api/Prioridades/{sistemas.SistemaId}");
+        
+        if(Validar())
+        {
+            if(!respuesta.IsSuccessStatusCode)
+            {
+                mensaje = respuesta.ReasonPhrase ?? "error";
+                return;
+            }
+            else
+            {
+                Nuevo();
+            }
         }
     }
 }

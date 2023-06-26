@@ -82,18 +82,21 @@
     {
         using var respuesta = await httpclient.PostAsJsonAsync("api/Prioridades", prioridades);
 
-        if(!respuesta.IsSuccessStatusCode)
+        if(Validar())
         {
-            mensaje = respuesta.ReasonPhrase ?? "error";
-            return;
-        }
+            if(!respuesta.IsSuccessStatusCode)
+            {
+                mensaje = respuesta.ReasonPhrase ?? "error";
+                return;
+            }
 
-        var prioridadDevuelta = await respuesta.Content.ReadFromJsonAsync<Prioridades>();
+            var prioridadDevuelta = await respuesta.Content.ReadFromJsonAsync<Prioridades>();
         
-        if(prioridadDevuelta is not null)
-        {
-            prioridades = prioridadDevuelta;
-            StateHasChanged();
+            if(prioridadDevuelta is not null)
+            {
+                prioridades = prioridadDevuelta;
+                StateHasChanged();
+            }
         }
     }
 
@@ -103,17 +106,26 @@
         mensaje = string.Empty;
     }
 
+    public bool Validar()
+    {
+        return prioridades.Descripcion != null && prioridades.DiasCompromiso > 0;
+    }
+
     public async Task Eliminar()
     {
         using var respuesta = await httpclient.DeleteAsync($"api/Prioridades/{prioridades.PrioridadId}");
-        if(!respuesta.IsSuccessStatusCode)
+
+        if(Validar())
         {
-            mensaje = respuesta.ReasonPhrase ?? "error";
-            return;
-        }
-        else
-        {
-            Nuevo();
+            if(!respuesta.IsSuccessStatusCode)
+            {
+                mensaje = respuesta.ReasonPhrase ?? "error";
+                return;
+            }
+            else
+            {
+                Nuevo();
+            }
         }
     }
 }
