@@ -9,13 +9,13 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Registros.Server
 build_property.RootNamespace = Registros.Server
-build_property.ProjectDir = c:\Programacion Aplicada I\Registros en WASM\Registros\Server\
+build_property.ProjectDir = C:\Programacion Aplicada I\Registros en WASM\Registros\Server\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = c:\Programacion Aplicada I\Registros en WASM\Registros\Server
+build_property.MSBuildProjectDirectory = C:\Programacion Aplicada I\Registros en WASM\Registros\Server
 build_property._RazorSourceGeneratorDebug = 
 
-[c:/Programacion Aplicada I/Registros en WASM/Registros/Server/Pages/Error.cshtml]
+[C:/Programacion Aplicada I/Registros en WASM/Registros/Server/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

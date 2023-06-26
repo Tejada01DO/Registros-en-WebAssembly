@@ -9,45 +9,65 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = browser
 build_property.RootNamespace = Registros.Client
 build_property.RootNamespace = Registros.Client
-build_property.ProjectDir = c:\Programacion Aplicada I\Registros en WASM\Registros\Client\
+build_property.ProjectDir = C:\Programacion Aplicada I\Registros en WASM\Registros\Client\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = c:\Programacion Aplicada I\Registros en WASM\Registros\Client
+build_property.MSBuildProjectDirectory = C:\Programacion Aplicada I\Registros en WASM\Registros\Client
 build_property._RazorSourceGeneratorDebug = 
 
-[c:/Programacion Aplicada I/Registros en WASM/Registros/Client/App.razor]
+[C:/Programacion Aplicada I/Registros en WASM/Registros/Client/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Programacion Aplicada I/Registros en WASM/Registros/Client/Pages/Counter.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
+[C:/Programacion Aplicada I/Registros en WASM/Registros/Client/Pages/C_Clientes.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ19DbGllbnRlcy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Programacion Aplicada I/Registros en WASM/Registros/Client/Pages/Index.razor]
+[C:/Programacion Aplicada I/Registros en WASM/Registros/Client/Pages/C_Prioridades.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ19QcmlvcmlkYWRlcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Programacion Aplicada I/Registros en WASM/Registros/Client/Pages/C_Sistemas.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ19TaXN0ZW1hcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Programacion Aplicada I/Registros en WASM/Registros/Client/Pages/C_Tickets.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ19UaWNrZXRzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Programacion Aplicada I/Registros en WASM/Registros/Client/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Programacion Aplicada I/Registros en WASM/Registros/Client/Pages/Registros/R_Clientes.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVnaXN0cm9zXFJfQ2xpZW50ZXMucmF6b3I=
+[C:/Programacion Aplicada I/Registros en WASM/Registros/Client/Pages/R_Clientes.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUl9DbGllbnRlcy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Programacion Aplicada I/Registros en WASM/Registros/Client/Pages/Registros/R_Prioridades.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVnaXN0cm9zXFJfUHJpb3JpZGFkZXMucmF6b3I=
+[C:/Programacion Aplicada I/Registros en WASM/Registros/Client/Pages/R_Prioridades.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUl9QcmlvcmlkYWRlcy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Programacion Aplicada I/Registros en WASM/Registros/Client/Shared/SurveyPrompt.razor]
+[C:/Programacion Aplicada I/Registros en WASM/Registros/Client/Pages/R_Sistemas.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUl9TaXN0ZW1hcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Programacion Aplicada I/Registros en WASM/Registros/Client/Pages/R_Tickets.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUl9UaWNrZXRzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Programacion Aplicada I/Registros en WASM/Registros/Client/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Programacion Aplicada I/Registros en WASM/Registros/Client/_Imports.razor]
+[C:/Programacion Aplicada I/Registros en WASM/Registros/Client/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Programacion Aplicada I/Registros en WASM/Registros/Client/Shared/MainLayout.razor]
+[C:/Programacion Aplicada I/Registros en WASM/Registros/Client/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-t76l5wqlww
 
-[c:/Programacion Aplicada I/Registros en WASM/Registros/Client/Shared/NavMenu.razor]
+[C:/Programacion Aplicada I/Registros en WASM/Registros/Client/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-yedkpqklpw

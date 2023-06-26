@@ -5081,198 +5081,6 @@
         }
       },
       {
-        "HashCode": -262525930,
-        "Kind": "Components.Component",
-        "Name": "Registros.Client.Pages.Counter",
-        "AssemblyName": "Registros.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Counter"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Registros.Client.Pages.Counter",
-          "Common.TypeNameIdentifier": "Counter",
-          "Common.TypeNamespace": "Registros.Client.Pages",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": 1953484439,
-        "Kind": "Components.Component",
-        "Name": "Registros.Client.Pages.Counter",
-        "AssemblyName": "Registros.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Registros.Client.Pages.Counter"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Registros.Client.Pages.Counter",
-          "Common.TypeNameIdentifier": "Counter",
-          "Common.TypeNamespace": "Registros.Client.Pages",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": -732063359,
-        "Kind": "Components.Component",
-        "Name": "Registros.Client.Pages.Index",
-        "AssemblyName": "Registros.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Index"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Registros.Client.Pages.Index",
-          "Common.TypeNameIdentifier": "Index",
-          "Common.TypeNamespace": "Registros.Client.Pages",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": 1441403874,
-        "Kind": "Components.Component",
-        "Name": "Registros.Client.Pages.Index",
-        "AssemblyName": "Registros.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Registros.Client.Pages.Index"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Registros.Client.Pages.Index",
-          "Common.TypeNameIdentifier": "Index",
-          "Common.TypeNamespace": "Registros.Client.Pages",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": -33452933,
-        "Kind": "Components.Component",
-        "Name": "Registros.Client.Pages.Registros.R_Prioridades",
-        "AssemblyName": "Registros.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "R_Prioridades"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "PrioridadId",
-            "TypeName": "System.Int32",
-            "Metadata": {
-              "Common.PropertyName": "PrioridadId",
-              "Common.GloballyQualifiedTypeName": "global::System.Int32"
-            }
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Registros.Client.Pages.Registros.R_Prioridades",
-          "Common.TypeNameIdentifier": "R_Prioridades",
-          "Common.TypeNamespace": "Registros.Client.Pages.Registros",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": -1568545062,
-        "Kind": "Components.Component",
-        "Name": "Registros.Client.Pages.Registros.R_Prioridades",
-        "AssemblyName": "Registros.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Registros.Client.Pages.Registros.R_Prioridades"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "PrioridadId",
-            "TypeName": "System.Int32",
-            "Metadata": {
-              "Common.PropertyName": "PrioridadId",
-              "Common.GloballyQualifiedTypeName": "global::System.Int32"
-            }
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Registros.Client.Pages.Registros.R_Prioridades",
-          "Common.TypeNameIdentifier": "R_Prioridades",
-          "Common.TypeNamespace": "Registros.Client.Pages.Registros",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": -200405652,
-        "Kind": "Components.Component",
-        "Name": "Registros.Client.Pages.Registros.R_Clientes",
-        "AssemblyName": "Registros.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "R_Clientes"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "ClienteId",
-            "TypeName": "System.Int32",
-            "Metadata": {
-              "Common.PropertyName": "ClienteId",
-              "Common.GloballyQualifiedTypeName": "global::System.Int32"
-            }
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Registros.Client.Pages.Registros.R_Clientes",
-          "Common.TypeNameIdentifier": "R_Clientes",
-          "Common.TypeNamespace": "Registros.Client.Pages.Registros",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": 656363715,
-        "Kind": "Components.Component",
-        "Name": "Registros.Client.Pages.Registros.R_Clientes",
-        "AssemblyName": "Registros.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Registros.Client.Pages.Registros.R_Clientes"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "ClienteId",
-            "TypeName": "System.Int32",
-            "Metadata": {
-              "Common.PropertyName": "ClienteId",
-              "Common.GloballyQualifiedTypeName": "global::System.Int32"
-            }
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "Registros.Client.Pages.Registros.R_Clientes",
-          "Common.TypeNameIdentifier": "R_Clientes",
-          "Common.TypeNamespace": "Registros.Client.Pages.Registros",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
         "HashCode": 2059509630,
         "Kind": "Components.Component",
         "Name": "Registros.Client.Shared.SurveyPrompt",
@@ -5470,6 +5278,427 @@
           "Common.TypeName": "Registros.Client.Shared.NavMenu",
           "Common.TypeNameIdentifier": "NavMenu",
           "Common.TypeNamespace": "Registros.Client.Shared",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -2092772419,
+        "Kind": "Components.Component",
+        "Name": "Registros.Client.Pages.R_Prioridades",
+        "AssemblyName": "Registros.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "R_Prioridades"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "PrioridadId",
+            "TypeName": "System.Int32",
+            "Metadata": {
+              "Common.PropertyName": "PrioridadId",
+              "Common.GloballyQualifiedTypeName": "global::System.Int32"
+            }
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Registros.Client.Pages.R_Prioridades",
+          "Common.TypeNameIdentifier": "R_Prioridades",
+          "Common.TypeNamespace": "Registros.Client.Pages",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 1457469482,
+        "Kind": "Components.Component",
+        "Name": "Registros.Client.Pages.R_Prioridades",
+        "AssemblyName": "Registros.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Registros.Client.Pages.R_Prioridades"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "PrioridadId",
+            "TypeName": "System.Int32",
+            "Metadata": {
+              "Common.PropertyName": "PrioridadId",
+              "Common.GloballyQualifiedTypeName": "global::System.Int32"
+            }
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Registros.Client.Pages.R_Prioridades",
+          "Common.TypeNameIdentifier": "R_Prioridades",
+          "Common.TypeNamespace": "Registros.Client.Pages",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 1824812234,
+        "Kind": "Components.Component",
+        "Name": "Registros.Client.Pages.R_Clientes",
+        "AssemblyName": "Registros.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "R_Clientes"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "ClienteId",
+            "TypeName": "System.Int32",
+            "Metadata": {
+              "Common.PropertyName": "ClienteId",
+              "Common.GloballyQualifiedTypeName": "global::System.Int32"
+            }
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Registros.Client.Pages.R_Clientes",
+          "Common.TypeNameIdentifier": "R_Clientes",
+          "Common.TypeNamespace": "Registros.Client.Pages",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 1954469194,
+        "Kind": "Components.Component",
+        "Name": "Registros.Client.Pages.R_Clientes",
+        "AssemblyName": "Registros.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Registros.Client.Pages.R_Clientes"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "ClienteId",
+            "TypeName": "System.Int32",
+            "Metadata": {
+              "Common.PropertyName": "ClienteId",
+              "Common.GloballyQualifiedTypeName": "global::System.Int32"
+            }
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Registros.Client.Pages.R_Clientes",
+          "Common.TypeNameIdentifier": "R_Clientes",
+          "Common.TypeNamespace": "Registros.Client.Pages",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -1120418206,
+        "Kind": "Components.Component",
+        "Name": "Registros.Client.Pages.R_Sistemas",
+        "AssemblyName": "Registros.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "R_Sistemas"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "SistemaId",
+            "TypeName": "System.Int32",
+            "Metadata": {
+              "Common.PropertyName": "SistemaId",
+              "Common.GloballyQualifiedTypeName": "global::System.Int32"
+            }
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Registros.Client.Pages.R_Sistemas",
+          "Common.TypeNameIdentifier": "R_Sistemas",
+          "Common.TypeNamespace": "Registros.Client.Pages",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -714116053,
+        "Kind": "Components.Component",
+        "Name": "Registros.Client.Pages.R_Sistemas",
+        "AssemblyName": "Registros.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Registros.Client.Pages.R_Sistemas"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "SistemaId",
+            "TypeName": "System.Int32",
+            "Metadata": {
+              "Common.PropertyName": "SistemaId",
+              "Common.GloballyQualifiedTypeName": "global::System.Int32"
+            }
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Registros.Client.Pages.R_Sistemas",
+          "Common.TypeNameIdentifier": "R_Sistemas",
+          "Common.TypeNamespace": "Registros.Client.Pages",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -1191414598,
+        "Kind": "Components.Component",
+        "Name": "Registros.Client.Pages.R_Tickets",
+        "AssemblyName": "Registros.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "R_Tickets"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "TicketId",
+            "TypeName": "System.Int32",
+            "Metadata": {
+              "Common.PropertyName": "TicketId",
+              "Common.GloballyQualifiedTypeName": "global::System.Int32"
+            }
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Registros.Client.Pages.R_Tickets",
+          "Common.TypeNameIdentifier": "R_Tickets",
+          "Common.TypeNamespace": "Registros.Client.Pages",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 2007133272,
+        "Kind": "Components.Component",
+        "Name": "Registros.Client.Pages.R_Tickets",
+        "AssemblyName": "Registros.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Registros.Client.Pages.R_Tickets"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "TicketId",
+            "TypeName": "System.Int32",
+            "Metadata": {
+              "Common.PropertyName": "TicketId",
+              "Common.GloballyQualifiedTypeName": "global::System.Int32"
+            }
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Registros.Client.Pages.R_Tickets",
+          "Common.TypeNameIdentifier": "R_Tickets",
+          "Common.TypeNamespace": "Registros.Client.Pages",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 873331496,
+        "Kind": "Components.Component",
+        "Name": "Registros.Client.Pages.C_Prioridades",
+        "AssemblyName": "Registros.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "C_Prioridades"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Registros.Client.Pages.C_Prioridades",
+          "Common.TypeNameIdentifier": "C_Prioridades",
+          "Common.TypeNamespace": "Registros.Client.Pages",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 546386377,
+        "Kind": "Components.Component",
+        "Name": "Registros.Client.Pages.C_Prioridades",
+        "AssemblyName": "Registros.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Registros.Client.Pages.C_Prioridades"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Registros.Client.Pages.C_Prioridades",
+          "Common.TypeNameIdentifier": "C_Prioridades",
+          "Common.TypeNamespace": "Registros.Client.Pages",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -2011957920,
+        "Kind": "Components.Component",
+        "Name": "Registros.Client.Pages.C_Clientes",
+        "AssemblyName": "Registros.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "C_Clientes"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Registros.Client.Pages.C_Clientes",
+          "Common.TypeNameIdentifier": "C_Clientes",
+          "Common.TypeNamespace": "Registros.Client.Pages",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 11264135,
+        "Kind": "Components.Component",
+        "Name": "Registros.Client.Pages.C_Clientes",
+        "AssemblyName": "Registros.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Registros.Client.Pages.C_Clientes"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Registros.Client.Pages.C_Clientes",
+          "Common.TypeNameIdentifier": "C_Clientes",
+          "Common.TypeNamespace": "Registros.Client.Pages",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -1282948118,
+        "Kind": "Components.Component",
+        "Name": "Registros.Client.Pages.C_Tickets",
+        "AssemblyName": "Registros.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "C_Tickets"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Registros.Client.Pages.C_Tickets",
+          "Common.TypeNameIdentifier": "C_Tickets",
+          "Common.TypeNamespace": "Registros.Client.Pages",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -1837958604,
+        "Kind": "Components.Component",
+        "Name": "Registros.Client.Pages.C_Tickets",
+        "AssemblyName": "Registros.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Registros.Client.Pages.C_Tickets"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Registros.Client.Pages.C_Tickets",
+          "Common.TypeNameIdentifier": "C_Tickets",
+          "Common.TypeNamespace": "Registros.Client.Pages",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 1131892375,
+        "Kind": "Components.Component",
+        "Name": "Registros.Client.Pages.C_Sistemas",
+        "AssemblyName": "Registros.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "C_Sistemas"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Registros.Client.Pages.C_Sistemas",
+          "Common.TypeNameIdentifier": "C_Sistemas",
+          "Common.TypeNamespace": "Registros.Client.Pages",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -549732979,
+        "Kind": "Components.Component",
+        "Name": "Registros.Client.Pages.C_Sistemas",
+        "AssemblyName": "Registros.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Registros.Client.Pages.C_Sistemas"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Registros.Client.Pages.C_Sistemas",
+          "Common.TypeNameIdentifier": "C_Sistemas",
+          "Common.TypeNamespace": "Registros.Client.Pages",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": -732063359,
+        "Kind": "Components.Component",
+        "Name": "Registros.Client.Pages.Index",
+        "AssemblyName": "Registros.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Index"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Registros.Client.Pages.Index",
+          "Common.TypeNameIdentifier": "Index",
+          "Common.TypeNamespace": "Registros.Client.Pages",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 1441403874,
+        "Kind": "Components.Component",
+        "Name": "Registros.Client.Pages.Index",
+        "AssemblyName": "Registros.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Registros.Client.Pages.Index"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "Registros.Client.Pages.Index",
+          "Common.TypeNameIdentifier": "Index",
+          "Common.TypeNamespace": "Registros.Client.Pages",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch",
           "Runtime.Name": "Components.IComponent"
         }
